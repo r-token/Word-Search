@@ -71,7 +71,7 @@ struct Word: Decodable {
 }
 
 //we need to be able to modify letters in place on the grid
-//if it's a value type we can't do that, we need a reference type (class)
+//if it's a value type we can't do that, we need a reference type (classes are reference types)
 //modifying one instance of label will modify all other references
 class Label {
     var letter: Character = " "
