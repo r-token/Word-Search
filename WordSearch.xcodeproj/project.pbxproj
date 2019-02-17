@@ -13,6 +13,8 @@
 		F44A7D462219DCED00524C59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F44A7D452219DCED00524C59 /* Assets.xcassets */; };
 		F44A7D492219DCED00524C59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F44A7D472219DCED00524C59 /* LaunchScreen.storyboard */; };
 		F44A7D542219DCED00524C59 /* WordSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44A7D532219DCED00524C59 /* WordSearchTests.swift */; };
+		F44A7D5F2219DD1700524C59 /* WordSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44A7D5E2219DD1700524C59 /* WordSearch.swift */; };
+		F44A7D612219F50800524C59 /* capitals.json in Resources */ = {isa = PBXBuildFile; fileRef = F44A7D602219F50800524C59 /* capitals.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		F44A7D4F2219DCED00524C59 /* WordSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F44A7D532219DCED00524C59 /* WordSearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordSearchTests.swift; sourceTree = "<group>"; };
 		F44A7D552219DCED00524C59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F44A7D5E2219DD1700524C59 /* WordSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordSearch.swift; sourceTree = "<group>"; };
+		F44A7D602219F50800524C59 /* capitals.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = capitals.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				F44A7D3E2219DCEC00524C59 /* AppDelegate.swift */,
+				F44A7D5E2219DD1700524C59 /* WordSearch.swift */,
 				F44A7D402219DCEC00524C59 /* ViewController.swift */,
+				F44A7D602219F50800524C59 /* capitals.json */,
 				F44A7D422219DCEC00524C59 /* Main.storyboard */,
 				F44A7D452219DCED00524C59 /* Assets.xcassets */,
 				F44A7D472219DCED00524C59 /* LaunchScreen.storyboard */,
@@ -179,6 +185,7 @@
 			files = (
 				F44A7D492219DCED00524C59 /* LaunchScreen.storyboard in Resources */,
 				F44A7D462219DCED00524C59 /* Assets.xcassets in Resources */,
+				F44A7D612219F50800524C59 /* capitals.json in Resources */,
 				F44A7D442219DCEC00524C59 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,6 +206,7 @@
 			files = (
 				F44A7D412219DCEC00524C59 /* ViewController.swift in Sources */,
 				F44A7D3F2219DCEC00524C59 /* AppDelegate.swift in Sources */,
+				F44A7D5F2219DD1700524C59 /* WordSearch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
